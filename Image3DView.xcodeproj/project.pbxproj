@@ -14,7 +14,6 @@
 		ACE649F52A20CEFC00187B8A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F42A20CEFC00187B8A /* Product.swift */; };
 		ACE649FA2A20D06700187B8A /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F72A20D06700187B8A /* SharedDataModel.swift */; };
 		ACE649FC2A20D06700187B8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F92A20D06700187B8A /* HomeViewModel.swift */; };
-		ACE64A012A20D11A00187B8A /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */; };
 		ACE64A022A20D11A00187B8A /* CustomCorners .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649FF2A20D11900187B8A /* CustomCorners .swift */; };
 		ACE64A032A20D11A00187B8A /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE64A002A20D11900187B8A /* CustomSceneView.swift */; };
 		ACE64A082A20D13E00187B8A /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A052A20D13E00187B8A /* Raleway-SemiBold.ttf */; };
@@ -52,7 +51,6 @@
 		ACE649F42A20CEFC00187B8A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ACE649F72A20D06700187B8A /* SharedDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
 		ACE649F92A20D06700187B8A /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		ACE649FF2A20D11900187B8A /* CustomCorners .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomCorners .swift"; sourceTree = "<group>"; };
 		ACE64A002A20D11900187B8A /* CustomSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
 		ACE64A052A20D13E00187B8A /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 		ACE649FD2A20D11900187B8A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */,
 				ACE649FF2A20D11900187B8A /* CustomCorners .swift */,
 				ACE64A002A20D11900187B8A /* CustomSceneView.swift */,
 			);
@@ -297,7 +294,6 @@
 				ACE64A0E2A20D18E00187B8A /* MainPage.swift in Sources */,
 				ACE64A032A20D11A00187B8A /* CustomSceneView.swift in Sources */,
 				ACE649FA2A20D06700187B8A /* SharedDataModel.swift in Sources */,
-				ACE64A012A20D11A00187B8A /* StaggeredGrid.swift in Sources */,
 				ACE649F52A20CEFC00187B8A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
