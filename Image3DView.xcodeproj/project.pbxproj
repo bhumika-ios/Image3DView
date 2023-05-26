@@ -14,6 +14,33 @@
 		ACE649F52A20CEFC00187B8A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F42A20CEFC00187B8A /* Product.swift */; };
 		ACE649FA2A20D06700187B8A /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F72A20D06700187B8A /* SharedDataModel.swift */; };
 		ACE649FC2A20D06700187B8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649F92A20D06700187B8A /* HomeViewModel.swift */; };
+		ACE64A012A20D11A00187B8A /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */; };
+		ACE64A022A20D11A00187B8A /* CustomCorners .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE649FF2A20D11900187B8A /* CustomCorners .swift */; };
+		ACE64A032A20D11A00187B8A /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE64A002A20D11900187B8A /* CustomSceneView.swift */; };
+		ACE64A082A20D13E00187B8A /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A052A20D13E00187B8A /* Raleway-SemiBold.ttf */; };
+		ACE64A092A20D13E00187B8A /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A062A20D13E00187B8A /* Raleway-Regular.ttf */; };
+		ACE64A0A2A20D13E00187B8A /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A072A20D13E00187B8A /* Raleway-Bold.ttf */; };
+		ACE64A0C2A20D15400187B8A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE64A0B2A20D15400187B8A /* Home.swift */; };
+		ACE64A0E2A20D18E00187B8A /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE64A0D2A20D18D00187B8A /* MainPage.swift */; };
+		ACE64A102A20D19300187B8A /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE64A0F2A20D19300187B8A /* ProductDetailView.swift */; };
+		ACE64A242A20D2B100187B8A /* MacBook_Air_M2_2022.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A122A20D2B100187B8A /* MacBook_Air_M2_2022.scn */; };
+		ACE64A252A20D2B100187B8A /* MacBook_Pro_2021.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A132A20D2B100187B8A /* MacBook_Pro_2021.scn */; };
+		ACE64A262A20D2B100187B8A /* iWatch_7_Red.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A142A20D2B100187B8A /* iWatch_7_Red.scn */; };
+		ACE64A272A20D2B100187B8A /* AirPods_Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A152A20D2B100187B8A /* AirPods_Pro.usdz */; };
+		ACE64A282A20D2B100187B8A /* iPhone_12Pro.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A162A20D2B100187B8A /* iPhone_12Pro.scn */; };
+		ACE64A292A20D2B100187B8A /* iPhone_14Pro.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A172A20D2B100187B8A /* iPhone_14Pro.scn */; };
+		ACE64A2A2A20D2B100187B8A /* iPadMini6.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A182A20D2B100187B8A /* iPadMini6.scn */; };
+		ACE64A2B2A20D2B100187B8A /* Airpods_Gen2.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A192A20D2B100187B8A /* Airpods_Gen2.scn */; };
+		ACE64A2C2A20D2B100187B8A /* Airpods_Pro.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1A2A20D2B100187B8A /* Airpods_Pro.scn */; };
+		ACE64A2D2A20D2B100187B8A /* iPhone_13_Pink.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1B2A20D2B100187B8A /* iPhone_13_Pink.scn */; };
+		ACE64A2E2A20D2B100187B8A /* iPadAir4.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1C2A20D2B100187B8A /* iPadAir4.scn */; };
+		ACE64A2F2A20D2B100187B8A /* Airpods_Gen2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1D2A20D2B100187B8A /* Airpods_Gen2.usdz */; };
+		ACE64A302A20D2B100187B8A /* iPhone_13Pro.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1E2A20D2B100187B8A /* iPhone_13Pro.scn */; };
+		ACE64A312A20D2B100187B8A /* Mac_Studio.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A1F2A20D2B100187B8A /* Mac_Studio.scn */; };
+		ACE64A322A20D2B100187B8A /* Airpods_Max_Silver.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A202A20D2B100187B8A /* Airpods_Max_Silver.usdz */; };
+		ACE64A332A20D2B100187B8A /* iMac_M1_2021.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A212A20D2B100187B8A /* iMac_M1_2021.scn */; };
+		ACE64A342A20D2B100187B8A /* iPadPro2021.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A222A20D2B100187B8A /* iPadPro2021.scn */; };
+		ACE64A352A20D2B100187B8A /* Airpods_Max_Silver.scn in Resources */ = {isa = PBXBuildFile; fileRef = ACE64A232A20D2B100187B8A /* Airpods_Max_Silver.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +52,33 @@
 		ACE649F42A20CEFC00187B8A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ACE649F72A20D06700187B8A /* SharedDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
 		ACE649F92A20D06700187B8A /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		ACE649FF2A20D11900187B8A /* CustomCorners .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomCorners .swift"; sourceTree = "<group>"; };
+		ACE64A002A20D11900187B8A /* CustomSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		ACE64A052A20D13E00187B8A /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		ACE64A062A20D13E00187B8A /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		ACE64A072A20D13E00187B8A /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		ACE64A0B2A20D15400187B8A /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ACE64A0D2A20D18D00187B8A /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		ACE64A0F2A20D19300187B8A /* ProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		ACE64A122A20D2B100187B8A /* MacBook_Air_M2_2022.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MacBook_Air_M2_2022.scn; sourceTree = "<group>"; };
+		ACE64A132A20D2B100187B8A /* MacBook_Pro_2021.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MacBook_Pro_2021.scn; sourceTree = "<group>"; };
+		ACE64A142A20D2B100187B8A /* iWatch_7_Red.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iWatch_7_Red.scn; sourceTree = "<group>"; };
+		ACE64A152A20D2B100187B8A /* AirPods_Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = AirPods_Pro.usdz; sourceTree = "<group>"; };
+		ACE64A162A20D2B100187B8A /* iPhone_12Pro.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPhone_12Pro.scn; sourceTree = "<group>"; };
+		ACE64A172A20D2B100187B8A /* iPhone_14Pro.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPhone_14Pro.scn; sourceTree = "<group>"; };
+		ACE64A182A20D2B100187B8A /* iPadMini6.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPadMini6.scn; sourceTree = "<group>"; };
+		ACE64A192A20D2B100187B8A /* Airpods_Gen2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Airpods_Gen2.scn; sourceTree = "<group>"; };
+		ACE64A1A2A20D2B100187B8A /* Airpods_Pro.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Airpods_Pro.scn; sourceTree = "<group>"; };
+		ACE64A1B2A20D2B100187B8A /* iPhone_13_Pink.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPhone_13_Pink.scn; sourceTree = "<group>"; };
+		ACE64A1C2A20D2B100187B8A /* iPadAir4.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPadAir4.scn; sourceTree = "<group>"; };
+		ACE64A1D2A20D2B100187B8A /* Airpods_Gen2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Airpods_Gen2.usdz; sourceTree = "<group>"; };
+		ACE64A1E2A20D2B100187B8A /* iPhone_13Pro.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPhone_13Pro.scn; sourceTree = "<group>"; };
+		ACE64A1F2A20D2B100187B8A /* Mac_Studio.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Mac_Studio.scn; sourceTree = "<group>"; };
+		ACE64A202A20D2B100187B8A /* Airpods_Max_Silver.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Airpods_Max_Silver.usdz; sourceTree = "<group>"; };
+		ACE64A212A20D2B100187B8A /* iMac_M1_2021.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iMac_M1_2021.scn; sourceTree = "<group>"; };
+		ACE64A222A20D2B100187B8A /* iPadPro2021.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iPadPro2021.scn; sourceTree = "<group>"; };
+		ACE64A232A20D2B100187B8A /* Airpods_Max_Silver.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Airpods_Max_Silver.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +111,16 @@
 		ACE649E42A20CED900187B8A /* Image3DView */ = {
 			isa = PBXGroup;
 			children = (
+				ACE64A112A20D2B100187B8A /* 3D Object */,
 				ACE649E52A20CED900187B8A /* Image3DViewApp.swift */,
+				ACE64A042A20D13E00187B8A /* Fonts */,
+				ACE649FD2A20D11900187B8A /* Helper */,
 				ACE649F62A20D06700187B8A /* ViewModel */,
 				ACE649F32A20CEFC00187B8A /* Model */,
 				ACE649E72A20CED900187B8A /* ContentView.swift */,
+				ACE64A0B2A20D15400187B8A /* Home.swift */,
+				ACE64A0D2A20D18D00187B8A /* MainPage.swift */,
+				ACE64A0F2A20D19300187B8A /* ProductDetailView.swift */,
 				ACE649E92A20CEDB00187B8A /* Assets.xcassets */,
 				ACE649EB2A20CEDB00187B8A /* Preview Content */,
 			);
@@ -90,6 +150,51 @@
 				ACE649F92A20D06700187B8A /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACE649FD2A20D11900187B8A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACE649FE2A20D11900187B8A /* StaggeredGrid.swift */,
+				ACE649FF2A20D11900187B8A /* CustomCorners .swift */,
+				ACE64A002A20D11900187B8A /* CustomSceneView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ACE64A042A20D13E00187B8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ACE64A052A20D13E00187B8A /* Raleway-SemiBold.ttf */,
+				ACE64A062A20D13E00187B8A /* Raleway-Regular.ttf */,
+				ACE64A072A20D13E00187B8A /* Raleway-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACE64A112A20D2B100187B8A /* 3D Object */ = {
+			isa = PBXGroup;
+			children = (
+				ACE64A122A20D2B100187B8A /* MacBook_Air_M2_2022.scn */,
+				ACE64A132A20D2B100187B8A /* MacBook_Pro_2021.scn */,
+				ACE64A142A20D2B100187B8A /* iWatch_7_Red.scn */,
+				ACE64A152A20D2B100187B8A /* AirPods_Pro.usdz */,
+				ACE64A162A20D2B100187B8A /* iPhone_12Pro.scn */,
+				ACE64A172A20D2B100187B8A /* iPhone_14Pro.scn */,
+				ACE64A182A20D2B100187B8A /* iPadMini6.scn */,
+				ACE64A192A20D2B100187B8A /* Airpods_Gen2.scn */,
+				ACE64A1A2A20D2B100187B8A /* Airpods_Pro.scn */,
+				ACE64A1B2A20D2B100187B8A /* iPhone_13_Pink.scn */,
+				ACE64A1C2A20D2B100187B8A /* iPadAir4.scn */,
+				ACE64A1D2A20D2B100187B8A /* Airpods_Gen2.usdz */,
+				ACE64A1E2A20D2B100187B8A /* iPhone_13Pro.scn */,
+				ACE64A1F2A20D2B100187B8A /* Mac_Studio.scn */,
+				ACE64A202A20D2B100187B8A /* Airpods_Max_Silver.usdz */,
+				ACE64A212A20D2B100187B8A /* iMac_M1_2021.scn */,
+				ACE64A222A20D2B100187B8A /* iPadPro2021.scn */,
+				ACE64A232A20D2B100187B8A /* Airpods_Max_Silver.scn */,
+			);
+			path = "3D Object";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +255,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE64A082A20D13E00187B8A /* Raleway-SemiBold.ttf in Resources */,
+				ACE64A242A20D2B100187B8A /* MacBook_Air_M2_2022.scn in Resources */,
+				ACE64A322A20D2B100187B8A /* Airpods_Max_Silver.usdz in Resources */,
+				ACE64A342A20D2B100187B8A /* iPadPro2021.scn in Resources */,
+				ACE64A292A20D2B100187B8A /* iPhone_14Pro.scn in Resources */,
+				ACE64A282A20D2B100187B8A /* iPhone_12Pro.scn in Resources */,
+				ACE64A262A20D2B100187B8A /* iWatch_7_Red.scn in Resources */,
+				ACE64A252A20D2B100187B8A /* MacBook_Pro_2021.scn in Resources */,
+				ACE64A332A20D2B100187B8A /* iMac_M1_2021.scn in Resources */,
+				ACE64A272A20D2B100187B8A /* AirPods_Pro.usdz in Resources */,
+				ACE64A352A20D2B100187B8A /* Airpods_Max_Silver.scn in Resources */,
+				ACE64A2B2A20D2B100187B8A /* Airpods_Gen2.scn in Resources */,
 				ACE649ED2A20CEDB00187B8A /* Preview Assets.xcassets in Resources */,
+				ACE64A2F2A20D2B100187B8A /* Airpods_Gen2.usdz in Resources */,
+				ACE64A2A2A20D2B100187B8A /* iPadMini6.scn in Resources */,
+				ACE64A302A20D2B100187B8A /* iPhone_13Pro.scn in Resources */,
+				ACE64A312A20D2B100187B8A /* Mac_Studio.scn in Resources */,
 				ACE649EA2A20CEDB00187B8A /* Assets.xcassets in Resources */,
+				ACE64A0A2A20D13E00187B8A /* Raleway-Bold.ttf in Resources */,
+				ACE64A2E2A20D2B100187B8A /* iPadAir4.scn in Resources */,
+				ACE64A092A20D13E00187B8A /* Raleway-Regular.ttf in Resources */,
+				ACE64A2D2A20D2B100187B8A /* iPhone_13_Pink.scn in Resources */,
+				ACE64A2C2A20D2B100187B8A /* Airpods_Pro.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +290,14 @@
 			files = (
 				ACE649E82A20CED900187B8A /* ContentView.swift in Sources */,
 				ACE649FC2A20D06700187B8A /* HomeViewModel.swift in Sources */,
+				ACE64A102A20D19300187B8A /* ProductDetailView.swift in Sources */,
+				ACE64A022A20D11A00187B8A /* CustomCorners .swift in Sources */,
 				ACE649E62A20CED900187B8A /* Image3DViewApp.swift in Sources */,
+				ACE64A0C2A20D15400187B8A /* Home.swift in Sources */,
+				ACE64A0E2A20D18E00187B8A /* MainPage.swift in Sources */,
+				ACE64A032A20D11A00187B8A /* CustomSceneView.swift in Sources */,
 				ACE649FA2A20D06700187B8A /* SharedDataModel.swift in Sources */,
+				ACE64A012A20D11A00187B8A /* StaggeredGrid.swift in Sources */,
 				ACE649F52A20CEFC00187B8A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
