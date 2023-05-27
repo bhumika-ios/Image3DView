@@ -43,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACD929F12A21EA5E0040F9FD /* s-l1600.scn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "s-l1600.scn"; sourceTree = "<group>"; };
 		ACE649E22A20CED900187B8A /* Image3DView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Image3DView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE649E52A20CED900187B8A /* Image3DViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image3DViewApp.swift; sourceTree = "<group>"; };
 		ACE649E72A20CED900187B8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 				ACE64A132A20D2B100187B8A /* MacBook_Pro_2021.scn */,
 				ACE64A142A20D2B100187B8A /* iWatch_7_Red.scn */,
 				ACE64A152A20D2B100187B8A /* AirPods_Pro.usdz */,
+				ACD929F12A21EA5E0040F9FD /* s-l1600.scn */,
 				ACE64A162A20D2B100187B8A /* iPhone_12Pro.scn */,
 				ACE64A172A20D2B100187B8A /* iPhone_14Pro.scn */,
 				ACE64A182A20D2B100187B8A /* iPadMini6.scn */,

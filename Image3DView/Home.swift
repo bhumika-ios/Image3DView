@@ -22,98 +22,8 @@ struct Home: View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false) {
                 
-                VStack(spacing: 15){
-                    
-                    //                ZStack{
-                    //                    if homeData.searchActivated{
-                    //                        SearchBar()
-                    //                    } else {
-                    //                        SearchBar()
-                    //                            .matchedGeometryEffect(id: "SEARCHBAR", in: animation)
-                    //                    }
-                    //                }
-                    //                .frame(width: getRect().width / 1.1)
-                    //                .contentShape(Rectangle())
-                    //                .onTapGesture {
-                    //                    withAnimation(.easeInOut){
-                    //                        homeData.searchActivated = true
-                    //                    }
-                    //                }
-                    //
-                    //                Text("Welcome Diki Dwi Diro, \nHappy Shopping!")
-                    //                    .font(.custom(customFont, size: 26).bold())
-                    //                    .foregroundColor(Color.black)
-                    //                    .frame(maxWidth: .infinity, alignment: .center)
-                    //                    .padding(.top)
-                    //                    .padding(.horizontal, 25)
-                    //                    .shadow(color: Color.black.opacity(0.25), radius: 5, x: 5, y: 5)
-                    
-                    //                HStack {
-                    //                    Image("profilePhoto")
-                    //                        .resizable()
-                    //                        .aspectRatio(contentMode: .fit)
-                    //                        .frame(width: 150, height: 150)
-                    //
-                    //                    VStack(alignment: .leading, spacing: 5){
-                    //                        Text("Diki Dwi Diro")
-                    //                            .fontWeight(.bold)
-                    //                            .font(.custom(customFont, size: 20))
-                    //
-                    //                        HStack {
-                    //                            Image(systemName: "star.square.fill")
-                    //                                .renderingMode(.template)
-                    //                                .foregroundColor(.yellow)
-                    //
-                    //                            Text("Gold merchant")
-                    //                                .font(.custom(customFont, size: 16))
-                    //
-                    //                        }
-                    //
-                    //                        Button(action: {
-                    //                            try! Auth.auth().signOut()
-                    //                            withAnimation{log_status = false}
-                    //                        }, label: {
-                    //                            Text("Log Out Account")
-                    //                                .font(.custom(customFont,size: 15))
-                    //                                .fontWeight(.bold)
-                    //                                .foregroundColor(.white)
-                    //                                .padding(.horizontal, 10)
-                    //                                .frame(height: 30)
-                    //                                .background(
-                    //                                    Color("Purple")
-                    //                                        .opacity(0.7)
-                    //                                        .cornerRadius(5)
-                    //                                )
-                    //                        })
-                    //                    }
-                    //                }
-                    //                .padding (.top, 15)
-                    
-                    //                Image("discountImage")
-                    //                    .resizable()
-                    //                    .aspectRatio(contentMode: .fit)
-                    //                    .padding(.horizontal, 25)
-                    //                    .clipShape(RoundedRectangle(cornerRadius: 40))
-                    //                    .shadow(color: Color.black.opacity(0.5), radius: 5, x: 5, y: 5)
-                    
-                    //Products Tab
-                    //                ScrollView(.horizontal, showsIndicators: false){
-                    //
-                    //                    HStack(spacing: 18){
-                    //
-                    //                        ForEach(ProductType.allCases, id: \.self){type in
-                    //
-                    //                            //Product Type View
-                    //                            ProductTypeView(type: type)
-                    //                        }
-                    //                    }
-                    //                    .padding (.horizontal, 25)
-                    //                }
-                    //                .padding(.top)
-                    
-                    //Products Page
-                    //  ScrollView(.horizontal, showsIndicators: false) {
-                    VStack(spacing: 25){
+                VStack(spacing: 0){
+                    VStack(spacing: 015){
                         
                         ForEach(homeData.products){product in
                             
@@ -125,18 +35,11 @@ struct Home: View {
                     .padding(.bottom)
                     .padding(.top, 80)
                     // }
-                    //  .padding(.top)
+                    .padding(.top,-75)
                 }
                 .padding(.vertical)
             }
-//            .overlay{
-//                ZStack{
-//                    if homeData.searchActivated{
-//                        SearchView(animation: animation)
-//                            .environmentObject(homeData)
-//                    }
-//                }
-//            }
+
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("HomeBG"))
             // Updating data whenever tab changes
@@ -144,6 +47,7 @@ struct Home: View {
                 homeData.filterProductByType()
             }
             .navigationTitle("3D Image View")
+            
         }
       
         
