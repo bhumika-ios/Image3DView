@@ -162,40 +162,40 @@ struct ProductDetailView: View {
         )
     }
     
-    func isLiked()-> Bool {
-        return sharedData.likedProducts.contains { product in
-            return self.product.id == product.id
-        }
-    }
-    
-    func isAddedToCart()-> Bool {
-        return sharedData.cartProducts.contains { product in
-            return self.product.id == product.id
-        }
-    }
-    
-    func addToLiked(){
-        //Checking whether the first element of liked products is the same or not
-        if let index = sharedData.likedProducts.firstIndex(where: { product in
-            return self.product.id == product.id
-        }){
-            //Remove from liked
-            sharedData.likedProducts.remove(at: index)
-        } else {
-            sharedData.likedProducts.append(product)
-        }
-    }
-    
-    func addToCart(){
-        if let index = sharedData.cartProducts.firstIndex(where: { product in
-            return self.product.id == product.id
-        }){
-            //Remove from cart
-            sharedData.cartProducts.remove(at: index)
-        } else {
-            sharedData.cartProducts.append(product)
-        }
-    }
+//    func isLiked()-> Bool {
+//        return sharedData.likedProducts.contains { product in
+//            return self.product.id == product.id
+//        }
+//    }
+//    
+//    func isAddedToCart()-> Bool {
+//        return sharedData.cartProducts.contains { product in
+//            return self.product.id == product.id
+//        }
+//    }
+//    
+//    func addToLiked(){
+//        //Checking whether the first element of liked products is the same or not
+//        if let index = sharedData.likedProducts.firstIndex(where: { product in
+//            return self.product.id == product.id
+//        }){
+//            //Remove from liked
+//            sharedData.likedProducts.remove(at: index)
+//        } else {
+//            sharedData.likedProducts.append(product)
+//        }
+//    }
+//    
+//    func addToCart(){
+//        if let index = sharedData.cartProducts.firstIndex(where: { product in
+//            return self.product.id == product.id
+//        }){
+//            //Remove from cart
+//            sharedData.cartProducts.remove(at: index)
+//        } else {
+//            sharedData.cartProducts.append(product)
+//        }
+//    }
 }
 
 struct ProductDetailView_Previews: PreviewProvider {

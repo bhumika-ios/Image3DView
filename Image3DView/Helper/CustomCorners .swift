@@ -2,7 +2,7 @@
 //  CustomCorners.swift
 //  eCommerce
 //
-//  Created by Diki Dwi Diro on 25/09/22.
+//  Created by Bhumika Patel on 27/05/23.
 //
 
 import SwiftUI

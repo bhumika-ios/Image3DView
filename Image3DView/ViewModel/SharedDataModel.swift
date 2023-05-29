@@ -19,16 +19,13 @@ import SwiftUI
 
 class SharedDataModel: ObservableObject {
     
-    //Detail Product Data
     @Published var detailProduct: Product?
     @Published var showDetailProduct: Bool = false
     @Published var show3DModelProduct: Bool = false
     @Published var discPrice: Int = 50
     @Published var discCode: String = "BLACKFRIDAY"
     @Published var discText: String = ""
-  //  @Published var selectedShipper: Shipping = .SiCepat
-    
-    //Liked products
+ 
     @Published var likedProducts: [Product] = []
     
     //Chart products

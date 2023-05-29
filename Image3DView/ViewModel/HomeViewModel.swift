@@ -1,8 +1,8 @@
 //
 //  HomeViewModel.swift
-//  eCommerce
+//  Image3DView
 //
-//  Created by Diki Dwi Diro on 29/09/22.
+//  Created by
 //
 
 import SwiftUI
