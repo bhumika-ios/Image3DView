@@ -1,6 +1,6 @@
 # Image3DView
 
-## Add Video
+## Video
 
 https://github.com/bhumika-ios/Image3DView/assets/109663223/4a110150-c818-49d2-a005-c952d2ef5ac1
 
