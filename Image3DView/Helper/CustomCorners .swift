@@ -1,8 +1,8 @@
 //
-//  CustomCorners.swift
-//  eCommerce
+//  Image3DViewApp.swift
+//  Image3DView
 //
-//  Created by Bhumika Patel on 27/05/23.
+//  Created by Bhumika Patel on 26/05/23.
 //
 
 import SwiftUI

@@ -1,9 +1,10 @@
 //
-//  Product.swift
-//  eCommerce
+//  Image3DViewApp.swift
+//  Image3DView
 //
-//  Created by Diki Dwi Diro on 29/09/22.
+//  Created by Bhumika Patel on 26/05/23.
 //
+
 
 import SwiftUI
 
@@ -20,11 +21,7 @@ struct Product: Identifiable, Hashable {
     var id = UUID().uuidString
     var type: ProductType
     var title: String
-    var subtitle: String
-    var description: String = ""
-    var price: String
     var productImage = ""
-    var quantity: Int = 1
     var modelName: String = ""
 }
 

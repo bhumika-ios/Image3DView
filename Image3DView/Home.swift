@@ -1,8 +1,8 @@
 //
-//  Home.swift
-//  eCommerce
+//  Image3DViewApp.swift
+//  Image3DView
 //
-//  Created by Diki Dwi Diro on 27/09/22.
+//  Created by Bhumika Patel on 26/05/23.
 //
 
 import SwiftUI
@@ -11,10 +11,6 @@ import SwiftUI
 struct Home: View {
     let customFont = "Raleway-Regular"
     var animation: Namespace.ID
-    
-    @AppStorage("log_status") var log_status: Bool = false
-    
-    //Shared data
     @EnvironmentObject var sharedData: SharedDataModel
     @StateObject var homeData: HomeViewModel = HomeViewModel()
     
@@ -27,14 +23,12 @@ struct Home: View {
                         
                         ForEach(homeData.products){product in
                             
-                            //Product Card View
                             ProductCardView(product: product)
                         }
                     }
                     .padding(.horizontal, 25)
                     .padding(.bottom)
                     .padding(.top, 80)
-                    // }
                     .padding(.top,-75)
                 }
                 .padding(.vertical)
@@ -42,7 +36,6 @@ struct Home: View {
 
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("HomeBG"))
-            // Updating data whenever tab changes
             .onChange(of: homeData.productType) { newValue in
                 homeData.filterProductByType()
             }
@@ -72,9 +65,7 @@ struct Home: View {
                 }
             }
             .frame(width: getRect().width / 2.5, height: getRect().width / 2.5)
-            //Moving image to top to look like its fixed at half top...
-//            .offset(y: -80)
-//            .padding(.bottom, -80)
+
             Spacer()
             Text(product.title)
                 .font(.custom(customFont, size: 18))
@@ -82,15 +73,7 @@ struct Home: View {
                 .fontWeight(.semibold)
                 .padding(.top)
             
-//            Text(product.subtitle)
-//                .font(.custom(customFont, size: 14))
-//                .foregroundColor(Color.gray)
-            
-//            Text(product.price)
-//                .font(.custom(customFont, size: 16))
-//                .foregroundColor(Color("Purple"))
-//                .fontWeight(.bold)
-//                .padding(.top, 5)
+             .padding(.top, 5)
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 20)
@@ -100,7 +83,6 @@ struct Home: View {
                 .cornerRadius(25)
         )
         
-        //Showing detail product detail when tapped
         .onTapGesture {
             withAnimation(.easeInOut){
                 sharedData.detailProduct = product
@@ -113,7 +95,6 @@ struct Home: View {
     func ProductTypeView(type: ProductType)-> some View{
         
         Button {
-            //Updating current type
             withAnimation {
                 homeData.productType = type
             }
@@ -121,17 +102,17 @@ struct Home: View {
             Text(type.rawValue)
                 .font(.custom(customFont, size: 15))
                 .fontWeight(.semibold)
-            //Changing Color Based on Current product type
-                .foregroundColor(homeData.productType == type ? Color("Purple") : Color.gray)
+           
+                .foregroundColor(homeData.productType == type ? Color("Orange") : Color.gray)
                 .padding(.bottom, 10)
-            //Adding indicator at bottom
+            
                 .overlay(
                     
                     //Adding Matched Geometry Effect
                     ZStack{
                         if homeData.productType == type{
                             Capsule()
-                                .fill(Color("Purple"))
+                                .fill(Color("Orange"))
                                 .matchedGeometryEffect(id: "PRODUCTTAB", in: animation)
                                 .frame(height: 2)
                         } else {
